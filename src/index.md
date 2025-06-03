@@ -23,13 +23,17 @@ features:
       src: /PAPER_PLANES.png
     title: Paper Plane
     details: Handles all outgoing user notifications across various channels transactional emails (registration confirmation, password reset, appointment scheduled/reminder/finished), SMS messages, and push notifications
-  - title: Appointment
+  - icon:
+      src: /TELEPHONE.png
+    title: Appointment
     details: Manages the entire lifecycle of appointments. This includes scheduling, booking, cancellation, doctor availability management, and maintaining a history of patient appointments
   - icon:
       src: /BOOK.png
     title: Patient Medical History
     details: Acts as the central repository for a patient's long-term, aggregated medical history. This includes static medical data (allergies, chronic conditions, past diagnoses), and aggregated summary of past treatments. It does not store individual appointment notes
-  - title: Clinical Notes
+  - icon:
+      src: /NOTES.png
+    title: Clinical Notes
     details: Stores detailed clinical notes and annotations made by doctors specific to an individual appointment. This service maintains the granular, time-stamped records of doctor-patient interactions during consultations
   - icon:
       src: /PAPER.png
@@ -39,7 +43,9 @@ features:
       src: /DISK.png
     title: File Storage
     details: Provides an API wrapper for handling all file uploads and downloads within the platform. This includes patient-uploaded images (e.g., for video calls), prescription PDFs, and profile pictures
-  - title: Video Call
+  - icon:
+      src: /LENS.png
+    title: Video Call
     details: Manages the integration with a third-party WebRTC provider (e.g., Twilio, Vonage, Daily.co) to facilitate 1-on-1 video consultations. It handles session creation, token generation, and potentially basic session management
   - icon:
       src: /ORACLE.png
