@@ -11,3 +11,7 @@
 
 #!.yarn/cache
 .pnp.*
+
+# Misc
+.DS_Store
+@theme_index.js
